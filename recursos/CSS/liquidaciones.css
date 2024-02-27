@@ -1,0 +1,137 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg, #d7e9fadd, #e7edf7e7, #f5f5f5);
+    background-size: 400% 400%;
+    animation: animate 7s ease infinite;
+}
+
+
+.container {
+    margin-top: 7%;
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: #ffff;
+    border-radius: 5px;
+    border: 2px solid #303030;
+    box-shadow: 0 5px 10px rgba(6, 5, 5, 0.1);
+}
+
+.form-group {
+    width: 20%;
+    margin-bottom: 2%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Colocar el título arriba del campo */
+.form-group label {
+    display: flex; /* Coloca el título arriba del campo */
+    margin-bottom: 5px; /* Agrega un espacio entre el título y el campo */
+    font-size: 14px;
+    font-weight: 510;
+}
+
+/* Alinear tres campos en una misma línea con flex */
+.form-row {
+    display: flex; /* Utiliza flexbox para alinear los campos */
+    justify-content: space-between; /* Distribuye los campos de manera uniforme en la línea */
+}
+
+.form-group {
+    flex: 0 0 30%; /* Establece el ancho deseado para cada campo */
+}
+
+.container {
+    margin-bottom: 5%; /* Agrega un espacio de 20 píxeles entre el contenedor del formulario y el pie de página */
+  }
+
+/* Contenedor de los inputs y selects */
+/* Alinear los inputs y selects uno al lado del otro */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva línea si no hay suficiente espacio */
+    gap: 20px; /* Agrega un espacio de 20px entre los elementos */
+  }
+  
+  /* Establecer el ancho de los inputs y selects */
+  input, select {
+    width: 100%;
+    flex: 1; /* Hace que los elementos ocupen el ancho disponible */
+    padding: 10px; /* Agrega un espacio interno a los elementos */
+    border: 1.3px solid #0d47a1; /* Agrega un borde a los elementos */
+    background-color: #fafafa;
+    border-radius: 5px; /* Agrega esquinas redondeadas a los elementos */
+  }
+
+  .btn-primary {
+    background-color: #2F3B74; /* Color azul */
+    color: #fff; /* Texto en blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+  }
+
+  .btn-container {
+    text-align: center;
+  }
+  
+  .btn-enviar {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b93838;
+    color: white;
+    font-size: 15px;
+    font-family: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #cd3535;
+  }
+  
+  /* Mensajes de error en los campos de Cigarrillos */
+  .invalid label {
+    color: #721c24; /* Color rojo */
+}
+
+.valid label {
+    color: #27ae60; /* Color verde */
+}
+
+.invalid .error {
+    color: #721c24; /* Color rojo */
+}
+
+.valid .error {
+    display: none;
+}
+
+.fieldset.invalid label {
+    color: #721c24; /* Color rojo */
+}
+
+.fieldset.valid label {
+    color: #27ae60; /* Color verde */
+}
+
+.fieldset.invalid .error {
+    color: #721c24; /* Color rojo */
+}
+
+.fieldset.valid .error {
+    display: none;
+}

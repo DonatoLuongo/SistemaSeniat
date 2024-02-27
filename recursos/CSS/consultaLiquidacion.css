@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #eef3f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: center;
+}
+  
+
+  .search-container {
+    margin: auto;
+    margin-top: 85px;
+    width: 960px;
+    height: 415px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(6, 5, 5, 0.1);
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px rgba(6, 5, 5, 0.1);
+
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 14px 14px;
+    border-radius: 50px 0 0 50px;
+    font-size: 16px;
+    border: none;
+    /* box-shadow: -1px 0 5px #303030; */
+    box-shadow: 3px 5px 15px 5px rgba(6, 5, 5, 0.1);
+
+  }
+  
+  button {
+    background: #c33636;
+    color: white;
+    padding: 14.5px 20px;
+    border: none;
+    border-radius: 0 35px 35px 0;
+    cursor: pointer;
+    box-shadow: 3px 5px 15px 5px rgba(6, 5, 5, 0.1);
+    /* box-shadow: -1px 0 5px #303030; */
+
+  }
+  
+  button:hover {
+    background-color: #dc2c2c;
+  }
+  
+  .fa {
+    font-size: 20px;
+  }
+
+
+  
+  /* Cuadro "tabla" para mostrar datos */
+  .tablacontribuyente {
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 30px 35px;
+}
+
+ table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+  td {
+    width: 50%;
+    padding: 17px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 1.3px solid #ddd;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267); 
+}
+
+th {
+    width: auto;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    background: #fafafa;
+    border: 1.4px solid #ddd;
+}
+
+thead {
+    position: sticky;
+}
+
+.alertdebusqueda {
+    width: 100%;
+    margin-top: -4%;
+    padding: 0 0px 3%;
+    color: #4f4f4f;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Boton de reporte */
+
+.container-btn{
+    margin: auto;
+    margin-top: 4%;
+    width: 50%;
+    background: #c33636;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.container-btn:hover {
+    background-color: #dc2c2c;
+    color: #ffffff;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267);
+}
+
+.btn-reporte {
+    display: flex;
+    font-size: 17px;
+    font-weight: 650;
+    justify-content: center;
+    color: white;
+    letter-spacing: 0.5px;
+    
+}
+  

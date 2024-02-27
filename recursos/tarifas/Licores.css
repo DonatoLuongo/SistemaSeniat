@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* background-image: url(/Proyecto/RECURSOS/Liquidacion/IMG/img31.jpg); */
+    background-color: #eef3f9;
+    justify-content: center;
+    align-items: center;
+}
+
+main.tabletarifas {
+    margin-top: 2%;
+    width: 75%;
+    background-color: #cfd7e4;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.table_tarifas {
+    width: 100%;
+    height: 9vh;
+    background-color: #b73d3d;
+    padding: 1.5%;
+    color: white;
+}
+.table_tarifas h1{
+    text-align: center;
+}
+
+.titlet {
+    font-size: 17px;
+    padding: 1.5%;
+}
+
+.table_body {
+    width: 100%;
+    max-height: calc(100% - .8rem);
+    background-color: #fffb;
+    margin: 0rem auto;
+    border-radius: .1rem;
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .4rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+table, th, td {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-size: 13px;
+
+}
+
+td {
+    box-shadow: 0 1px 1px #dcdcdc;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #D7DCE4;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267);
+}
+
+tbody tr:hover {
+    background-color: #0000000b;
+}
+
+table, th, td {
+    padding: 1rem;
+}
+
+/* Boton para actualizar */
+
+.btn_update{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.btn_update>a:nth-child(1){
+    border-color: #b73d3d;
+}
+
+.btn_update:hover a{
+    color: #b73d3d;
+}
+/* Fin */
+
+
+
+
+/* Campos para actualizar el valor */
+
+.input-group input {
+    margin-left: 4%;
+    margin-right: 5%; /* Ajusta el margen entre los inputs según tus necesidades */
+  }
+
+.user-details {
+    display: flex;
+    align-items: center;
+    background: #fff;
+
+  }
+  
+  .input-group{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-group-text {
+    font-size: 13px;
+    font-weight: 550;
+    margin: 1%;
+    padding: 10px 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+  }
+
+  
+  input[type="submit"] {
+    margin-left: 60%;
+    padding: 10px 20px;
+    background-color: #b73d3d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cd4545;
+  }
+
+  .alertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 14px;
+    color: #303030;
+    text-align: left;
+    font-style: italic;
+}

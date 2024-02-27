@@ -1,0 +1,151 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+body{
+    min-height: 50vh;
+    background: linear-gradient(45deg, #d7e9fadd, #e7edf7e7, #f5f5f5);
+    background-size: 400% 400%;
+    animation: animate 7s ease infinite;
+}
+
+
+.container {
+    margin-top: 6%;
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background: #ffff;
+    border-radius: 5px;
+    border: 3px solid #303030;
+    box-shadow: 0 5px 10px rgba(6, 5, 5, 0.1);
+}
+
+.form-group {
+  width: 20%;
+  margin-bottom: 2%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Colocar el título arriba del campo */
+.form-group label {
+    display: flex; /* Coloca el título arriba del campo */
+    margin-bottom: 5px; /* Agrega un espacio entre el título y el campo */
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+  /* Establecer el ancho de los inputs y selects */
+  select {
+    width: 100%;
+    flex: 1; /* Hace que los elementos ocupen el ancho disponible */
+    padding: 10px; /* Agrega un espacio interno a los elementos */
+    background-color: #ffffff;
+    border-radius: 5px; /* Agrega esquinas redondeadas a los elementos */
+  }
+
+/* Ajustes para alinear los campos y botones */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  margin: 1%;
+  flex: 0 0 20%; /* Ajuste del ancho de los campos */
+}
+
+/* Ajustes para posicionar los botones juntos y centrados */
+.botones-contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Agregamos un margen superior para separar los botones del resto del contenido */
+}
+
+.btn-enviar {
+  margin-right: 10px; /* Agregamos un espacio entre los botones */
+}
+
+
+/* Contenedor de los inputs y selects */
+/* Alinear los inputs y selects uno al lado del otro */
+.container {
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva línea si no hay suficiente espacio */
+    gap: 20px; /* Agrega un espacio de 20px entre los elementos */
+  }
+  
+  /* Establecer el ancho de los inputs y selects */
+ input, select {
+    width: 100%;
+    flex: 1; /* Hace que los elementos ocupen el ancho disponible */
+    padding: 10px; /* Agrega un espacio interno a los elementos */
+    border: 2px solid #ededed; /* Agrega un borde a los elementos */
+    border-radius: 5px; /* Agrega esquinas redondeadas a los elementos */
+  }
+
+  input, textarea {
+    pointer-events: none;
+    background-color: #f4f4f4;
+  }
+
+  .btn-registrar {
+    width: 100%;
+    display: flex;
+  }
+
+/* Estilos originales */
+.btn-container {
+  text-align: center;
+}
+
+.btn-enviar {
+  margin-bottom: 1%;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b93838;
+  color: white;
+  font-size: 15px;
+  font-family: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #cd3535;
+}
+
+.registrar {
+  margin-bottom: 1%;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0c3e8a;
+  color: white;
+  font-size: 15px;
+  font-family: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registrar:hover {
+  background-color: #184eb9;
+}
+
+/* Nuevos estilos para posicionar botones juntos */
+.botones-contenedor {
+  display: flex; /* Agregamos esta propiedad para crear fila única */
+  justify-content: space-between; /* Espaciamos los elementos por igual */
+}
+
+.btn-inline {
+  margin-right: 1rem; /* Añadimos espacio entre los botones */
+}
+  

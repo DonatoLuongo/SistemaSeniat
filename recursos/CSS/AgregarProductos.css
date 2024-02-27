@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* background-image: url(../IMG/img31.jpg); */
+    background-color: #eef3f9;
+    justify-content: center;
+    align-items: center;
+}
+
+.Productos {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.Card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.Card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.Card img{
+    width: 100%;
+    height: 210px;
+}
+
+.Card .ContenidoProducto{
+    padding: 15px;
+    text-align: center;
+}
+
+.Card .ContenidoProducto h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.Card .ContenidoProducto a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Iniciar-btn {
+    width: 50%;
+    height: 30%;
+    border-radius: 10rem;
+    background: #A10D0D;
+    color: white;
+}
+
+.Iniciar-btn:hover {
+    color: white;
+    background: #8e1010;
+    transform: translateY(-3%);
+}

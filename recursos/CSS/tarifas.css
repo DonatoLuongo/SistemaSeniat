@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* background-image: url(../IMG/img31.jpg); */
+    background-color: #eef3f9;
+    justify-content: center;
+    align-items: center;
+}
+
+main.tabletarifas {
+    margin-top: 1%;
+    width: 75%;
+    height: 50;
+    background-color: #cfd7e4;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.table_tarifas {
+    width: 100%;
+    height: 20%;
+    background-color: #b73d3d;
+    padding: 1.50%;
+    color: white;
+}
+
+.table_tarifas h1{
+    text-align: center;
+}
+
+.titlet {
+    font-size: 19px;
+}
+
+.table_body {
+    width: 100%;
+    max-height: calc(100% - .8rem);
+    background-color: #fffb;
+    margin: 0rem auto;
+    border-radius: .1rem;
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .4rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+table, th, td {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #D7DCE4;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267);
+}
+
+tbody tr:hover {
+    background-color: #0000000b;
+}
+
+table, th, td {
+    padding: 1rem;
+}
+
+.buttonlist {
+    border-radius: 10px;
+    color: black;
+}
+
+.buttonlist:hover {
+    color: #0e55be;
+}
+
+
+.action_btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action_btn>a{
+    text-decoration: none;
+    color: #444;
+    background: #CFD4DA;
+    border: 2px;
+    display: inline-block;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 0px 0.5px 0px 0px #444;
+    transition: 0.3s ease-in-out;
+}
+
+.action_btn>a:nth-child(1){
+    border-color: #b73d3d;
+}
+
+.action_btn:hover a{
+    color: #b73d3d;
+}
+
+
+/* Boton para actualizar el valor */
+
+.user-details {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+}
+
+.input-box {
+    display: flex;
+    width: 70%;
+    padding: 5px 7px;
+    background: #f8f8f8;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    border: 0.5px solid #ccc;;
+}
+
+.detail {
+    width: 100%;
+    padding: 10px 10%;
+    color: #303030;
+    font-size: 14px;
+    font-weight: 510;
+}
+
+.btn-update input {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 100%;
+    padding: 10px 20%;
+    background-color: #b73d3d;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-update input:hover{
+    background-color: #ce4545;
+    color: #eef3f9;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 2px #551212;
+}
+
+.alertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 14px;
+    color: #303030;
+    text-align: left;
+    font-style: italic;
+}

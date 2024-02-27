@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #eef3f9;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_tabla {
+    display: flex;
+    font-size: 20px;
+    font-weight: 750;
+    justify-content: center;
+    padding: 0 0 17px;
+}
+
+.lead-text {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: rgb(28, 88, 141) 2px solid;
+    padding-bottom: 3px;
+  }
+
+main.Tabla_liquidadores {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 30px 35px;
+    background-color: #ffffff;
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .3rem;
+}
+
+.table {
+    width: 100%;
+    max-height: 55vh;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+}
+
+.tabla {
+    border-radius: 5px;
+    height: 50vh;
+    overflow: auto;
+}
+
+.tabla {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+ th{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: rgb(240, 240, 240);
+    text-align: left;
+    font-size: 17px;
+    font-style: italic;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid #ddd;
+}
+
+td {
+    width: 50%;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+thead {
+    position: sticky;
+    background: #f2f2f2;
+    box-shadow: 0px 0px 1px 0px rgba(74, 74, 74, 0.267); 
+}
+
+tbody tr:hover {
+    background-color: #eef3f9;
+}
+
+
+.action_btn {
+    width: 10%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #a10d0d;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.action_btn:hover {
+    background: #ac0f0f;
+    box-shadow: 0px 0px 1px 0px #363737;
+}
+
+.action_btn:focus {
+    outline: none;
+}
+
+.action_btn:active {
+    box-shadow: 0px 0px 1px 0px #363737;
+}
+
+
+/* Responsive el Header */
+@media(max-width:1000px){
+
+    .action_btn {
+        width: 25%;
+        padding: 5px 25px;
+        font-size: 10;
+        font-weight: 400;
+    }
+
+}

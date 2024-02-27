@@ -1,0 +1,85 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+body{
+  min-height: 50vh;
+  background: linear-gradient(45deg, #d7e9fadd, #e7edf7e7, #f5f5f5);
+  background-size: 400% 400%;
+  animation: animate 7s ease infinite;
+  /* background: linear-gradient( #d3e7fadd, #fcfdff, #f5f5f5); */
+}
+
+
+.container {
+  margin-top: 6%;
+  padding: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background: #ffff;
+  border-radius: 5px;
+  border: 3px solid #303030;
+  box-shadow: 0 5px 10px rgba(6, 5, 5, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1%;
+  display: inline-block;
+}
+
+/* Colocar el título arriba del campo */
+.form-group label {
+  display: flex; /* Coloca el título arriba del campo */
+  margin-bottom: 5px; /* Agrega un espacio entre el título y el campo */
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+
+
+.form-group {
+  margin-top: 1%;
+  flex: 0 0 30%; /* Establece el ancho deseado para cada campo */
+}
+
+
+/* Contenedor de los inputs y selects */
+/* Alinear los inputs y selects uno al lado del otro */
+.container {
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva línea si no hay suficiente espacio */
+  gap: 20px; /* Agrega un espacio de 20px entre los elementos */
+}
+
+/* Establecer el ancho de los inputs y selects */
+input {
+  width: 100%;
+  flex: 1; /* Hace que los elementos ocupen el ancho disponible */
+  padding: 10px; /* Agrega un espacio interno a los elementos */
+  border: 2px solid #ededed; /* Agrega un borde a los elementos */
+  border-radius: 5px; /* Agrega esquinas redondeadas a los elementos */
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-enviar {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b93838;
+  color: white;
+  font-size: 15px;
+  font-family: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #cd3535;
+}
+
